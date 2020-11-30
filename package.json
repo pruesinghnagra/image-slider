@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate",
+  "name": "image-slider",
   "version": "1.0.0",
   "description": "The one boilerplate for all",
   "main": "server/index.js",
@@ -26,18 +26,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pruesinghnagra/boilerplate.git"
+    "url": "git+https://github.com/pruesinghnagra/image-slider.git"
   },
   "keywords": [
-    "boilerplate",
+    "image-slider",
     "fullstack"
   ],
   "author": "Prue Singh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pruesinghnagra/boilerplate/issues"
+    "url": "https://github.com/pruesinghnagra/image-slider/issues"
   },
-  "homepage": "https://github.com/pruesinghnagra/boilerplate#readme",
+  "homepage": "https://github.com/pruesinghnagra/image-slider#readme",
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.21.12",
