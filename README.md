@@ -1,3 +1,5 @@
-### Boiling a plate for me.
+# Image slider
 
-- Going to contain some cool shit that will freak you the fuck out.
+Hopefully it's legit
+
+Image slider with react and the unsplash api
