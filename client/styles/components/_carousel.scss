@@ -8,7 +8,7 @@
     }
   
     &--arrow {
-      color: $maximum-blue-green;
+      color: $blue;
       font-size: 2rem;
       line-height: 0;
       cursor: pointer; 
@@ -16,7 +16,7 @@
       top: 50%;
   
       &:hover {
-        color: $dark-sea-green;
+        color: $green;
       }
   
       &-left {
@@ -39,17 +39,17 @@
     &--dot {
       height: 2rem;
       width: 2rem;
-      background-color: $maximum-blue-green;
+      background-color: $blue;
       border-radius: 50%;
       cursor: pointer; 
       margin: 2rem;
   
       &.active {
-        background-color: $plump-purple;
+        background-color: $purple;
       }
   
       &:hover {
-        background-color: $dark-sea-green;
+        background-color: $green;
       }
     }
   }

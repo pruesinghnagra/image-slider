@@ -5,6 +5,14 @@ $platinum: #ebebebff;
 $ash-gray: #cad2c5ff;
 $dark-sea-green: #84a98cff;
 
+/* Easy color access */
+
+$blue: $maximum-blue-green;
+$purple: $plump-purple;
+$white: $platinum;
+$grey: $ash-gray;
+$green: $dark-sea-green;
+
 /* SCSS HSL */
 $maximum-blue-green: hsla(180, 47%, 56%, 1);
 $plump-purple: hsla(247, 37%, 45%, 1);
