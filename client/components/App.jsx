@@ -1,9 +1,12 @@
 import React from 'react'
 
-const App = () => {
-  return (
-    <h1>Boil</h1>
-  )
-}
+import Slider from './Slider'
+
+const App = () => (
+  <section>
+    <h1>Slider</h1>
+    <Slider />
+  </section>
+)
 
 export default App
