@@ -4,7 +4,8 @@ module.exports = {
   entry: ['./client/index.js', './client/styles/main.scss'],
   output: {
     path: path.join(__dirname, '..', 'server', 'public'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    //assetModuleFilename: 'images/[hash][ext][query]',
   },
   mode: 'development',
   module: {
@@ -21,11 +22,23 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ]
-      }
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        use: {
+          loader: 'url-loader',
+        },
+      },
+      {
+        test: /\.(woff|woff2)$/,
+        use: {
+          loader: 'url-loader',
+        },
+      },
     ]
   },
   resolve: {
     extensions: ['.js', '.jsx']
   },
-  devtool: 'source-map'
+  devtool: 'source-map',
 }

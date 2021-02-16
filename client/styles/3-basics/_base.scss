@@ -1,0 +1,11 @@
+@use '../5-modules/typography';
+
+body {
+    background-image: url('../images/hannah.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: typography.$heading-font;
+}
