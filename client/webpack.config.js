@@ -38,6 +38,9 @@ module.exports = {
     ]
   },
   resolve: {
+    fallback: {
+      util: require.resolve("util/")
+    },
     extensions: ['.js', '.jsx']
   },
   devtool: 'source-map',
