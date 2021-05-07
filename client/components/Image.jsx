@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Image = ({ url }) => {
+function Image ({ url }) {
   const styles = {
     backgroundImage: `url(${url})`,
     backgroundSize: 'cover',

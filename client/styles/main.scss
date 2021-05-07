@@ -1,9 +1,14 @@
-// Modules
-@import "./modules/colors";
-@import "./modules/typography";
+// 1 - TOOLS
+@use "./1-tools/css-reset";
 
-// Partials
-@import "./partials/css-reset";
+// 2 - HELPERS
 
-// Components
-@import "./components/carousel";
+// 3 - BASICS
+@use "./3-basics/base";
+
+// 4 - LAYOUT
+@use "./4-layout/carousel";
+
+// 5 - MODULES
+
+// 6 - PAGES
