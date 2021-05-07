@@ -32,9 +32,6 @@
     "image-slider",
     "fullstack"
   ],
-  "resolutions": {
-    "hosted-git-info": ">=3.0.8"
-  },
   "author": "Prue Singh",
   "license": "ISC",
   "bugs": {
