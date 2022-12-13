@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/pruesinghnagra/image-slider#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "knex": "^0.21.12",
     "pg": "^8.5.1",
     "sqlite3": "^5.0.0",
